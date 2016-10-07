@@ -1,0 +1,340 @@
+{
+	"solutionIdentifier": 
+	{
+		"complexType": "SolutionIdentifier",
+		"id": 1001
+	},
+
+	"putFieldDataCriteria": 
+	[
+		{
+			"fieldData": 
+			{
+				"field": 
+				{
+					"fieldIdentifier": 
+					{
+						"complexType": "FieldIdentifier",
+						"id": "/asset/assetTag/crank-frame-dischargepressure/tagDatasource/tagExtensions/attributes/alertStatus/value",
+						"name": "/asset/assetTag/crank-frame-dischargepressure/tagDatasource/tagExtensions/attributes/alertStatus/value",
+						"source": "PREDIX_ASSET"
+					},
+
+					"parents": 
+					[
+						
+					]
+				},
+
+				"data": 
+				{
+					"complexType": "OsaData",
+					"dataEvent": 
+					{
+						"complexType": "DMBool",
+						"id": 0,
+						"numAlerts": 
+						[
+							
+						],
+
+						"value": false
+					}
+				}
+			},
+
+			"filter": 
+			{
+				"complexType": "FieldFilter",
+				"fieldIdentifierValue": 
+				[
+					{
+						"fieldIdentifier": 
+						{
+							"complexType": "FieldIdentifier",
+							"id": "/asset/assetId",
+							"source": "PREDIX_ASSET"
+						},
+
+						"value": "/asset/compressor-2015"
+					}
+				]
+			}
+		},
+
+		{
+			"fieldData": 
+			{
+				"field": 
+				{
+					"fieldIdentifier": 
+					{
+						"complexType": "FieldIdentifier",
+						"id": "/asset/assetTag/crank-frame-dischargepressure/tagDatasource/tagExtensions/attributes/alertLevel/value",
+						"name": "/asset/assetTag/crank-frame-dischargepressure/tagDatasource/tagExtensions/attributes/alertLevel/value",
+						"source": "PREDIX_ASSET"
+					},
+
+					"parents": 
+					[
+						
+					]
+				},
+
+				"data": 
+				{
+					"complexType": "OsaData",
+					"dataEvent": 
+					{
+						"complexType": "DAString",
+						"id": 0,
+						"numAlerts": 
+						[
+							
+						],
+
+						"value": "NORMAL"
+					}
+				}
+			},
+
+			"filter": 
+			{
+				"complexType": "FieldFilter",
+				"fieldIdentifierValue": 
+				[
+					{
+						"fieldIdentifier": 
+						{
+							"complexType": "FieldIdentifier",
+							"id": "/asset/assetId",
+							"source": "PREDIX_ASSET"
+						},
+
+						"value": "/asset/compressor-2015"
+					}
+				]
+			}
+		},
+
+		{
+			"fieldData": 
+			{
+				"field": 
+				{
+					"fieldIdentifier": 
+					{
+						"complexType": "FieldIdentifier",
+						"id": "/asset/assetTag/crank-frame-dischargepressure/tagDatasource/tagExtensions/attributes/alertLevelValue/value",
+						"name": "/asset/assetTag/crank-frame-dischargepressure/tagDatasource/tagExtensions/attributes/alertLevelValue/value",
+						"source": "PREDIX_ASSET"
+					},
+
+					"parents": 
+					[
+						
+					]
+				},
+
+				"data": 
+				{
+					"complexType": "OsaData",
+					"dataEvent": 
+					{
+						"complexType": "DMReal",
+						"id": 0,
+						"numAlerts": 
+						[
+							
+						],
+
+						"value": 0.37005749355627315
+					}
+				}
+			},
+
+			"filter": 
+			{
+				"complexType": "FieldFilter",
+				"fieldIdentifierValue": 
+				[
+					{
+						"fieldIdentifier": 
+						{
+							"complexType": "FieldIdentifier",
+							"id": "/asset/assetId",
+							"source": "PREDIX_ASSET"
+						},
+
+						"value": "/asset/compressor-2015"
+					}
+				]
+			}
+		},
+
+		{
+			"fieldData": 
+			{
+				"field": 
+				{
+					"fieldIdentifier": 
+					{
+						"complexType": "FieldIdentifier",
+						"id": "/asset/assetTag/crank-frame-dischargepressure/tagDatasource/tagExtensions/attributes/alertTime/value",
+						"name": "/asset/assetTag/crank-frame-dischargepressure/tagDatasource/tagExtensions/attributes/alertTime/value",
+						"source": "PREDIX_ASSET"
+					},
+
+					"parents": 
+					[
+						
+					]
+				},
+
+				"data": 
+				{
+					"complexType": "OsaData",
+					"dataEvent": 
+					{
+						"complexType": "DMReal",
+						"id": 0,
+						"numAlerts": 
+						[
+							
+						],
+
+						"value": 1.0
+					}
+				}
+			},
+
+			"filter": 
+			{
+				"complexType": "FieldFilter",
+				"fieldIdentifierValue": 
+				[
+					{
+						"fieldIdentifier": 
+						{
+							"complexType": "FieldIdentifier",
+							"id": "/asset/assetId",
+							"source": "PREDIX_ASSET"
+						},
+
+						"value": "/asset/compressor-2015"
+					}
+				]
+			}
+		},
+
+		{
+			"fieldData": 
+			{
+				"field": 
+				{
+					"fieldIdentifier": 
+					{
+						"complexType": "FieldIdentifier",
+						"id": "/asset/assetTag/crank-frame-dischargepressure/tagDatasource/tagExtensions/attributes/deltaThreshold/value",
+						"name": "/asset/assetTag/crank-frame-dischargepressure/tagDatasource/tagExtensions/attributes/deltaThreshold/value",
+						"source": "PREDIX_ASSET"
+					},
+
+					"parents": 
+					[
+						
+					]
+				},
+
+				"data": 
+				{
+					"complexType": "OsaData",
+					"dataEvent": 
+					{
+						"complexType": "DMReal",
+						"id": 0,
+						"numAlerts": 
+						[
+							
+						],
+
+						"value": 0.016089456241577094
+					}
+				}
+			},
+
+			"filter": 
+			{
+				"complexType": "FieldFilter",
+				"fieldIdentifierValue": 
+				[
+					{
+						"fieldIdentifier": 
+						{
+							"complexType": "FieldIdentifier",
+							"id": "/asset/assetId",
+							"source": "PREDIX_ASSET"
+						},
+
+						"value": "/asset/compressor-2015"
+					}
+				]
+			}
+		},
+
+		{
+			"fieldData": 
+			{
+				"field": 
+				{
+					"fieldIdentifier": 
+					{
+						"complexType": "FieldIdentifier",
+						"id": "/asset/assetTag/crank-frame-dischargepressure/tagDatasource/tagExtensions/attributes/deltaThresholdLevel/value",
+						"name": "/asset/assetTag/crank-frame-dischargepressure/tagDatasource/tagExtensions/attributes/deltaThresholdLevel/value",
+						"source": "PREDIX_ASSET"
+					},
+
+					"parents": 
+					[
+						
+					]
+				},
+
+				"data": 
+				{
+					"complexType": "OsaData",
+					"dataEvent": 
+					{
+						"complexType": "DAString",
+						"id": 0,
+						"numAlerts": 
+						[
+							
+						],
+
+						"value": "ALARM_LO"
+					}
+				}
+			},
+
+			"filter": 
+			{
+				"complexType": "FieldFilter",
+				"fieldIdentifierValue": 
+				[
+					{
+						"fieldIdentifier": 
+						{
+							"complexType": "FieldIdentifier",
+							"id": "/asset/assetId",
+							"source": "PREDIX_ASSET"
+						},
+
+						"value": "/asset/compressor-2015"
+					}
+				]
+			}
+		}
+	]
+}

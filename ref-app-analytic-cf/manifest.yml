@@ -1,0 +1,14 @@
+#inherit: base-manifest.yml
+applications:
+  - name: template-fdh-router-cf
+    buildpack: java_buildpack
+    path: target/ref-app-analytic-cf-4.0.4.jar
+    memory: 1GB
+    i : 2
+env:
+    predix_oauth_restHost : b72d642d-8868-47c2-8a0f-8ca46cbc15af.predix-uaa-sysint.grc-apps.svc.ice.ge.com
+    predix_oauth_clientId : app_client_id:secret
+    predix_timeseries_ws_retry_attempt: 1
+    predix_fdh_restProtocol : https
+    predix_fdh_restHost : unittest-fdh-router-cf.grc-apps.svc.ice.ge.com
+    predix_fdh_restPort : 443
